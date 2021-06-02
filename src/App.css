@@ -1,0 +1,168 @@
+html {
+	font-family: 'Poppins', sans-serif;
+
+}
+body {
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+a {
+  color: white;
+}
+.header-color {
+  background: #136a8a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.nav {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.landing-page {
+  background: #136a8a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  height: 100vh;
+}
+.container{
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+  max-width: 960px; /* 2 */
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */  
+}
+
+.avatar-img {
+  width: 300px;
+}
+
+.banner-text {
+  font-family: 'Poppins', sans-serif;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.8;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: 800;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 2px solid white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-text h1 {
+    font-size: 44px;
+  }
+
+  .social-links i {
+    color: white;
+    font-size: 3em;
+    padding: 10px;
+  }
+} 
+
+/* LANDING PAGE END */
+
+.projects-grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.projects-card {
+  width: 450px;
+  margin: 1em auto;
+}
+/* Resume Page CSS */
+.resume-right-col {
+  background-color: #27221f;
+  color: white;
+  padding: 2em;
+}
+
+/* Resume Page END */
+
+/* Projects Page */
+.text-bg {
+  background-color: #141E30;
+}
+
+
+/* Contact Page CSS */
+.contact-body {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  height: 650px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.contact-grid p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.contact-grid hr {
+  border-top: 3px solid #844fb2;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list {
+  display: flex;
+  justify-content: center;
+}
+
+
+.contact-list i {
+  font-size: 34px;
+  padding-right: 3rem;
+}
+
+.contact-list a {
+  text-decoration: none;
+  color: blueviolet;
+}
+/* Contact Page CSS */
+
