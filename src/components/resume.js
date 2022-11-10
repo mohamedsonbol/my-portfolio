@@ -16,25 +16,14 @@ class Resume extends Component {
             </div>
             <div className="container">
               <h2 style={{ paddingTop: ".5em" }}>Mohamed Sonbol</h2>
-              <h4 style={{ color: "grey" }}>Entry-level Software Engineer</h4>
+              <h4 style={{ color: "grey" }}>Front-end Developer</h4>
 
               <hr style={{ borderTop: "3px solid #844fb2", width: "50%" }} />
 
               <p style={{ textAlign: "justify" }}>
-                I’m a solution-oriented, entry-level Software Engineer,
-                enthusiastic about developing practical and time-saving software
-                solutions. Committed to work within client and project
-                specification to deliver cost-effective timely results. Seeking
-                to use proven skills in JavaScript along with my excellent
-                interpersonal skills to meet business needs.
+                
               </p>
               <hr style={{ borderTop: "3px solid #844fb2", width: "50%" }} />
-              <h5>Address</h5>
-              <p>Warsaw, Poland.</p>
-
-              <h5>Phone</h5>
-              <p>+48 732 785 743</p>
-
               <h5>Email</h5>
               <p>mhmdezzat.eng@gmail.com</p>
 
@@ -42,15 +31,16 @@ class Resume extends Component {
 
               <h5>Technologies</h5>
               <ul>
-                <li>Git</li>
+                <li>JavaScript</li>
+                <li>ReactJS</li>
+                <li>MongoDB</li>
+                <li>NodeJS</li>
+                <li>ExpressJS</li>
+                <li>WordPress</li>
+                <li>Bootstrap</li>
+                <li>Git&Github</li>
                 <li>Bash</li>
                 <li>RESTful API</li>
-                <li>MongoDB</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>Adobe Photoshop 2020</li>
-                <li>Agile, Scrum methodology</li>
-                <li>WordPress</li>
               </ul>
             </div>
           </Cell>
@@ -66,6 +56,20 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #e22947" }} />
 
             <h2>Experience</h2>
+            <Experience
+              startYear={2021}
+              endYear="Present"
+              location="Dubai, UAE."
+              jobName="Accenture"
+              jobPosition="Digital Technical Analyst"
+              jobDescription="- Providing professional customer service for clients with technical requirements.
+              - Debugging websites, analyzing and providing code (JavaScript)
+              - Providing guidance on implementing server-to-server integration (API/JSON/JavaScript)
+              - Working with my team on developing Google Chrome extensions
+              - Created an automated Google Sheet App using Google App Scripts (JavaScript) 
+              - Communicating and working with team members on daily bases"
+            />
+
             <Experience
               startYear={2018}
               endYear={2020}

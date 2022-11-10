@@ -13,12 +13,12 @@ class Landing extends Component {
 					/>
 
 					<div className="banner-text">
-						<h1>Web Developer</h1>
+						<h1>Front-end Development</h1>
 
 						<hr />
 
 						<p>
-							Hi! welcome to my website, built with react. 
+							Built with React.
 						</p>
 						<div className="social-links">
 							{/* LinkedIn */}

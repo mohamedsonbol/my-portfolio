@@ -30,7 +30,7 @@ class Projects extends Component {
 							React Portfolio
 						</CardTitle>
 						<CardText>
-							My personal website developed with React, check my code on Github!
+							This website was developed with React library, check my code on Github!
 						</CardText>
 						<CardActions border>
 							<a href="https://github.com/mohamedsonbol/portfolio" target="_blank" rel="noopener noreferrer"><Button colored>Github</Button></a>
