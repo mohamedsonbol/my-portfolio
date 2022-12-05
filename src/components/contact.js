@@ -18,7 +18,7 @@ class Contact extends Component {
 								style={{ height: '250px' }}
 							/>
 							<p style={{ width: '75%', margin: 'auto', paddingTop: '.5em', textAlign: 'justify'}}>
-								4+ years of experience building and maintaining responsive websites. Proficient with JavaScript, excellent interpersonal skills. Ability to work directly with clients to understand requirements with attention to details.
+								5 years of experience building and maintaining responsive websites. Proficient with JavaScript, excellent interpersonal skills. Ability to work directly with clients to understand requirements with attention to details.
 							</p>
 						</Cell>
 						<Cell col={6}>
