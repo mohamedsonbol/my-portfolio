@@ -109,6 +109,7 @@ class Projects extends Component {
 						</CardTitle>
 						<CardText>
 							BlogApp developed with node.js, express.js, mongoDB Atlas and Bootstrap4.
+							- Live version is currently under mantainance duo to changes with database and node version upates.
 						</CardText>
 						<CardActions border>
 						<a href="https://github.com/mohamedsonbol/BlogApp" target="_blank" rel="noopener noreferrer"><Button colored>Github</Button></a>

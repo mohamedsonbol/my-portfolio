@@ -16,14 +16,10 @@ class Resume extends Component {
             </div>
             <div className="container">
               <h2 style={{ paddingTop: ".5em" }}>Mohamed Sonbol</h2>
-              <h4 style={{ color: "grey" }}>Front-end Developer</h4>
+              <h4 style={{ color: "grey" }}>Full-stack Web Developer</h4>
 
               <hr style={{ borderTop: "3px solid #844fb2", width: "50%" }} />
 
-              <p style={{ textAlign: "justify" }}>
-                
-              </p>
-              <hr style={{ borderTop: "3px solid #844fb2", width: "50%" }} />
               <h5>Email</h5>
               <p>mhmdezzat.eng@gmail.com</p>
 
@@ -59,7 +55,7 @@ class Resume extends Component {
             <Experience
               startYear={2021}
               endYear="Present"
-              location="Dubai, UAE."
+              location="Warsaw, Poland."
               jobName="Accenture"
               jobPosition="Digital Technical Analyst"
               jobDescription="- Providing professional customer service for clients with technical requirements.
